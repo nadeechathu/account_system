@@ -1,0 +1,36 @@
+table.dataTable td, table.dataTable th {
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 13.8px;
+}
+#speedLoanShow .card1 , #otherLoanShow .card1{
+    margin: 10px 15px 25px;
+    border: 1px solid #b6b6b6;
+    padding: 20px;
+}
+.btn-action {
+    margin-top: 5px;
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 767px) {
+.d-none-mobile{
+    display: none !important;
+}
+.d-block-mobile{
+    display: block !important;
+}
+
+html .content.app-content {
+    padding: 15px 0;
+}
+.font-17{
+    font: 17px !important;
+}
+  #otherLoanShow .card1 {
+    margin: 0;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+}
